@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Tips — ThriveJobs</title>
+  <meta name="description" content="Practical resume and job search tips for 2026. Learn how to stand out, beat ATS, and land more interviews." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0b0f; --bg-elevated: #12141c; --bg-card: #161922;
+      --border: rgba(255,255,255,0.08); --text: #f4f4f5; --text-muted: #a1a1aa;
+      --accent: #34d399; --accent-dim: rgba(52,211,153,0.15); --accent-hover: #6ee7b7;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    body::before {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background: radial-gradient(ellipse 80% 50% at 20% -10%, rgba(52,211,153,0.1), transparent),
+                  radial-gradient(ellipse 60% 40% at 90% 10%, rgba(167,139,250,0.06), transparent);
+    }
+    .container { width: min(1120px, 92%); margin: 0 auto; position: relative; z-index: 1; }
+    nav { position: sticky; top: 0; z-index: 100; backdrop-filter: blur(16px); background: rgba(10,11,15,0.75); border-bottom: 1px solid var(--border); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.03em; text-decoration: none; color: var(--text); }
+    .logo-mark { width: 32px; height: 32px; border-radius: 9px; background: linear-gradient(135deg, var(--accent), #10b981); display: grid; place-items: center; font-size: 16px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 18px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; text-decoration: none; border: none; cursor: pointer; transition: all 0.2s; }
+    .btn-primary { background: var(--accent); color: #064e3b; }
+    .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-ghost:hover { background: var(--bg-elevated); }
+
+    .page-header { padding: 80px 0 40px; text-align: center; }
+    .page-header h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+    .page-header p { color: var(--text-muted); max-width: 520px; margin: 0 auto; }
+
+    .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; padding-bottom: 80px; }
+    .article-card {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+      overflow: hidden; transition: transform 0.25s, border-color 0.25s; text-decoration: none; color: inherit;
+      display: flex; flex-direction: column;
+    }
+    .article-card:hover { transform: translateY(-4px); border-color: rgba(52,211,153,0.3); }
+    .card-tag { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); padding: 20px 24px 0; }
+    .card-body { padding: 12px 24px 24px; flex: 1; display: flex; flex-direction: column; }
+    .card-body h2 { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 10px; line-height: 1.3; }
+    .card-body p { font-size: 0.9rem; color: var(--text-muted); flex: 1; margin-bottom: 16px; }
+    .card-meta { font-size: 0.8rem; color: var(--text-muted); display: flex; gap: 12px; }
+    .read-more { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-top: 8px; }
+
+    footer { border-top: 1px solid var(--border); padding: 32px 0; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container nav-inner">
+      <a href="../index.html" class="logo"><span class="logo-mark">🌿</span> ThriveJobs</a>
+      <div style="display:flex;gap:10px;">
+        <a href="../index.html#pricing" class="btn btn-ghost">Pricing</a>
+        <a href="../index.html#cta" class="btn btn-primary">Get started free</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header class="page-header">
+      <h1>Resume Tips</h1>
+      <p>Practical, no-fluff advice to make your applications stand out — and get more interviews.</p>
+    </header>
+
+    <div class="articles-grid">
+      <a href="tailor-resume-in-5-minutes.html" class="article-card">
+        <div class="card-tag">Resume Strategy</div>
+        <div class="card-body">
+          <h2>How to Tailor Your Resume for Every Job in Under 5 Minutes</h2>
+          <p>Most people spend 30–60 minutes rewriting the same resume. Here’s a faster system that actually works — and why doing it by hand is no longer necessary.</p>
+          <div class="card-meta"><span>6 min read</span><span>·</span><span>Strategy</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="ats-friendly-mistakes.html" class="article-card">
+        <div class="card-tag">ATS & Screening</div>
+        <div class="card-body">
+          <h2>7 ATS-Friendly Resume Mistakes That Get You Rejected</h2>
+          <p>Applicant Tracking Systems reject more resumes than recruiters do. These seven common mistakes are silent killers — and easy to fix once you know them.</p>
+          <div class="card-meta"><span>7 min read</span><span>·</span><span>ATS</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="cover-letter-formula.html" class="article-card">
+        <div class="card-tag">Cover Letters</div>
+        <div class="card-body">
+          <h2>The Cover Letter Formula That Actually Gets Interviews</h2>
+          <p>Skip the “Dear Hiring Manager, I am writing to express my interest…” template. This simple structure has helped thousands of candidates stand out.</p>
+          <div class="card-meta"><span>5 min read</span><span>·</span><span>Writing</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="recruiter-first-6-seconds.html" class="article-card">
+        <div class="card-tag">Recruiters</div>
+        <div class="card-body">
+          <h2>What Recruiters Really Look for in the First 6 Seconds</h2>
+          <p>Eye-tracking studies show recruiters spend seconds, not minutes, on most resumes. Here’s exactly what their eyes hit first — and how to win that window.</p>
+          <div class="card-meta"><span>6 min read</span><span>·</span><span>Insights</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="quantify-achievements.html" class="article-card">
+        <div class="card-tag">Achievements</div>
+        <div class="card-body">
+          <h2>How to Quantify Your Achievements (Even If You’re Entry-Level)</h2>
+          <p>“Responsible for…” is dead. Numbers get interviews. Here’s how to turn vague duties into measurable wins — even without big titles or budgets.</p>
+          <div class="card-meta"><span>8 min read</span><span>·</span><span>Writing</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="generic-resumes-are-dead.html" class="article-card">
+        <div class="card-tag">2026 Trends</div>
+        <div class="card-body">
+          <h2>Why Generic Resumes Are Dead in 2026 (And What to Do Instead)</h2>
+          <p>One-size-fits-all resumes had a low success rate before. In 2026 they’re nearly useless. Here’s the new standard — and how to keep up without burning out.</p>
+          <div class="card-meta"><span>7 min read</span><span>·</span><span>Trends</span></div>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p><a href="../index.html">← Back to ThriveJobs</a> · © 2026 ThriveJobs. Built for job seekers only.</p>
+    </div>
+  </footer>
+</body>
+</html>
